@@ -1,0 +1,104 @@
+{
+  "sectors": [
+    "subsistence",
+    "infrastructure",
+    "care",
+    "knowledge",
+    "ecology",
+    "finance"
+  ],
+  "budget": 6.0,
+  "true_weights": {
+    "subsistence": 1.0,
+    "infrastructure": 0.8,
+    "care": 0.7,
+    "knowledge": 0.6,
+    "ecology": 0.9,
+    "finance": 0.3
+  },
+  "constraint_optimum": {
+    "allocation": {
+      "subsistence": 1.593023,
+      "infrastructure": 1.174419,
+      "care": 0.965116,
+      "knowledge": 0.755814,
+      "ecology": 1.383721,
+      "finance": 0.127907
+    },
+    "viability": 4.965855,
+    "note": "max total viability under the budget constraint; no prices"
+  },
+  "faithful_price": {
+    "allocation": {
+      "subsistence": 1.593023,
+      "infrastructure": 1.174419,
+      "care": 0.965116,
+      "knowledge": 0.755814,
+      "ecology": 1.383721,
+      "finance": 0.127907
+    },
+    "viability": 4.965855,
+    "divergence_from_optimum": 0.0,
+    "note": "undistorted prices reproduce the constraint optimum exactly"
+  },
+  "financialised": {
+    "distortion": 3.0,
+    "allocation": {
+      "subsistence": 1.230769,
+      "infrastructure": 0.884615,
+      "care": 0.711538,
+      "knowledge": 0.538462,
+      "ecology": 1.057692,
+      "finance": 1.576923
+    },
+    "viability": 4.564556,
+    "viability_loss_pct": 8.0812,
+    "finance_share": 0.262821,
+    "finance_share_optimum": 0.021318,
+    "note": "a speculative markup on finance over-allocates to it and loses true viability the price interface was meant to track"
+  },
+  "distortion_sweep": [
+    {
+      "distortion": 0.0,
+      "viability": 4.965855,
+      "viability_loss_pct": 0.0,
+      "finance_share": 0.021318
+    },
+    {
+      "distortion": 0.25,
+      "viability": 4.958445,
+      "viability_loss_pct": 0.1492,
+      "finance_share": 0.045238
+    },
+    {
+      "distortion": 0.5,
+      "viability": 4.940051,
+      "viability_loss_pct": 0.5196,
+      "finance_share": 0.068352
+    },
+    {
+      "distortion": 1.0,
+      "viability": 4.883802,
+      "viability_loss_pct": 1.6524,
+      "finance_share": 0.112319
+    },
+    {
+      "distortion": 2.0,
+      "viability": 4.733772,
+      "viability_loss_pct": 4.6736,
+      "finance_share": 0.192177
+    },
+    {
+      "distortion": 4.0,
+      "viability": 4.390314,
+      "viability_loss_pct": 11.59,
+      "finance_share": 0.325758
+    },
+    {
+      "distortion": 8.0,
+      "viability": 3.718005,
+      "viability_loss_pct": 25.1286,
+      "finance_share": 0.521144
+    }
+  ]
+}

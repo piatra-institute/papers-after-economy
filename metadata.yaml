@@ -1,13 +1,13 @@
 slug: after-economy
 web_slug: after-economy
-title: "After Economy"
+title: "After Economy: Constraint, Price, and the End of the Fiscal World"
 header: "After Economy"
 created: "2026-05"        # inception month (drives YYYY/MM archive path)
 date: null            # publication month (shown on web)
 paper_dir: paper
-has_simulation: false
-claims_target: none      # results.json | claim-ledger | none
+has_simulation: true
+claims_target: results.json      # results.json | claim-ledger | none
 repo: git@github.com:piatra-institute/papers-after-economy.git
 github: https://github.com/piatra-institute/papers-after-economy
-status: draft              # draft | built | published
-abstract: null
+status: built              # draft | built | published
+abstract: "Price is a late institutional interface, a derived form of commensuration that arrives after value has already been made consequential. The deeper sequence runs through constraint, patterned flow, cost, allocation, bind, valuation, commensuration, price, money, market, capital, and financial abstraction. Physical systems supply gradients and dissipation; economic language enters there only by analogy. Cells allocate energy, metabolites, membrane gradients, and repair capacity under viability constraints; they have costs and tradeoffs but no prices. Organisms budget energy, attention, immune response, movement, and reproduction. Sensorimotor systems transact with environments before they exchange anything: a ball in flight and a catcher form a temporary field of reciprocal constraint in which action possibilities compete for realization. Human economies stabilize these older structures under social value frames. Gifts create debt without money. Blood compensation creates price without market. States fiscalize grain, land, labor, debt, and bodies before capitalism. Capitalism inherits value, money, markets, and price, subordinates them to accumulation, and treats capitalized price as the privileged public form of value. Financialization extends that move by pricing claims on future income, risk, collateral, volatility, liquidity, and state rescue. The phrase \"after economy\" can survive only as a precise claim: after the monetary-price form loses its monopoly over the interpretation of value. AI, platforms, ecological accounting, open-source production, public provisioning, carbon budgets, and post-scarcity imaginaries leave allocation intact and shift it into compute, attention, energy, access, reputation, and governance. The problem after economy is the political form taken by allocation after price ceases to appear as ontology. A small allocation model makes the structural claim auditable: undistorted prices reproduce the constraint-optimal allocation exactly, while a speculative markup on finance raises its budget share from 0.02 to 0.26 and costs 8.08 percent of system viability."
