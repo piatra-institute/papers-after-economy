@@ -2,6 +2,20 @@
 
 Dated log of editorial passes and verification runs. Newest first.
 
+## 2026-05-29 — upgrade pass (Group B)
+
+Scope: integrate the §11 model better and flag the biological-cost metaphor.
+
+Changes:
+- §3: dropped the "This point blocks a common reduction" throat-clear; flagged
+  that the cellular/organismal "cost" is read as analogy, not identity; added a
+  forward-reference to the §11 model so it no longer arrives unannounced.
+- §11: added a model-epistemology statement (what the stylised model claims —
+  mechanism and direction, not magnitude of any real economy).
+
+Verification: voice 0 errors; refs advisory (humanities); claims 0 unmatched
+(no new numbers); build clean; check => PASS. Status remains `built` (off-web).
+
 ## 2026-05-29 — computational layer added
 
 Scope: instrument the "price is an interface, not ontology" thesis with a
