@@ -2,6 +2,26 @@
 
 Dated log of editorial passes and verification runs. Newest first.
 
+## 2026-06-13 — voice reform
+
+Scope: density and rhythm pass against the house voice guide. The paper read
+clean on the gate but ran on a metronome of reflexive enumerations.
+
+Changes:
+- Tricolon reflex: brought the three-plus-item-list proxy from 86 to 61 by
+  varying the worst reflexive enumerations across §1-§12 (asyndeton, semicolon
+  regrouping, "each/all" recasts, occasional trims), leaving genuine
+  enumerations intact. No item carrying argument was dropped.
+- §12 closers de-metronomed: the nine-fold "X shows Y" recap and the six-item
+  final list rewritten so the rhythm varies; "Conclusion" retitled to "What
+  Survives Price."
+- Syntax warns (4 inline-contrastive ", not Z") rewritten as positive
+  declaratives in §3 (ATP), §9 (calculation/domination), §11 (model scope, two).
+
+Verification: voice 0 errors, 0 review-candidates; refs advisory (narrative
+citations, unchanged); claims 0 unmatched (no number touched); build clean;
+check => PASS. Status unchanged.
+
 ## 2026-05-29 — upgrade pass (Group B)
 
 Scope: integrate the §11 model better and flag the biological-cost metaphor.
