@@ -9,7 +9,7 @@ date: May 2026
 
 ## Abstract
 
-Price is a late institutional interface, a derived form of commensuration that arrives after value has already been made consequential. The deeper sequence runs through constraint, patterned flow, cost, allocation, bind, valuation, commensuration, price, money, market, capital, and financial abstraction. Physical systems supply gradients and dissipation; economic language enters there only by analogy. Cells allocate energy, metabolites, membrane gradients, and repair capacity under viability constraints; they have costs and tradeoffs but no prices. Organisms budget across energy, attention, immune response, movement, and reproduction. Sensorimotor systems transact with environments before they exchange anything: a ball in flight and a catcher form a temporary field of reciprocal constraint in which action possibilities compete for realization. Human economies stabilize these older structures under social value frames. Gifts create debt without money. Blood compensation creates price without market. States fiscalize grain, land, labor, debt, and bodies before capitalism. Capitalism inherits value, money, markets, price, subordinates them to accumulation, and treats capitalized price as the privileged public form of value. Financialization extends that move by pricing claims on future income, risk, collateral, volatility, liquidity, state rescue. The phrase "after economy" can survive only as a narrow claim: after the monetary-price form loses its monopoly over the interpretation of value. AI, platforms, ecological accounting, open-source production, public provisioning, carbon budgets, and post-scarcity imaginaries leave allocation intact and shift it into compute, attention, energy, access, reputation, governance. The problem after economy is the political form taken by allocation after price ceases to appear as ontology. A small allocation model makes the structural claim auditable: undistorted prices reproduce the constraint-optimal allocation exactly, while a speculative markup on finance raises its budget share from 0.02 to 0.26 and costs 8.08 percent of system viability.
+Price is a late institutional interface, a derived form of commensuration that arrives after value has already been made consequential. The deeper sequence runs through constraint, patterned flow, cost, allocation, bind, valuation, commensuration, price, money, market, capital, and financial abstraction. Physical systems supply gradients and dissipation; economic language enters there only by analogy. Cells allocate energy, metabolites, membrane gradients, and repair capacity under viability constraints; they have costs and tradeoffs but no prices. Organisms budget across energy, attention, immune response, movement, and reproduction. Sensorimotor systems transact with environments before they exchange anything: a ball in flight and a catcher form a temporary field of reciprocal constraint in which action possibilities compete for realization. Human economies stabilize these older structures under social value frames. Gifts create debt without money. Blood compensation creates price without market. States fiscalize grain, land, labor, debt, and bodies before capitalism. Capitalism inherits value, money, markets, price, subordinates them to accumulation, and treats capitalized price as the privileged public form of value. Financialization extends that move by pricing claims on future income, risk, collateral, volatility, liquidity, state rescue. The phrase "after economy" can survive only as a narrow claim: after the monetary-price form loses its monopoly over the interpretation of value. AI, platforms, ecological accounting, open-source production, public provisioning, carbon budgets, and post-scarcity imaginaries leave allocation intact and shift it into compute, attention, energy, access, reputation, governance. The problem after economy is the political form taken by allocation after price ceases to appear as ontology. A small allocation model illustrates the structural claim as a stylized geometry rather than a measurement: by construction, undistorted prices reproduce the same allocation an undistorted objective already determines, while a speculative markup on finance raises its budget share from 0.02 to 0.26 and forfeits 8.08 percent of the model's viability. The figures give the direction of a mechanism, not a reading of any real economy.
 
 
 ## 1. Price Is Not Ontology
@@ -48,7 +48,7 @@ The cellular case still matters. Protein synthesis, ion transport, motility, DNA
 
 Organisms extend the same structure across more registers. Glucose, oxygen, fat storage, immune activation, sleep, pain, reproduction, risk, attention: all are distributed under constraints. Fever consumes energy; immune response can damage tissue; reproduction competes with repair; vigilance competes with rest; movement exposes the organism to danger while securing food or mates. Physiology budgets before reflective calculation appears.
 
-Read as analogy and not identity, these cases block a common reduction. The existence of cost does not imply money, and the existence of allocation does not imply market exchange. A system can expend, conserve, defer, repair, sacrifice, all without pricing. Price is a later public technique for making some of these burdens commensurable, and §11 makes that claim auditable on a small allocation model.
+Read as analogy and not identity, these cases block a common reduction. The existence of cost does not imply money, and the existence of allocation does not imply market exchange. A system can expend, conserve, defer, repair, sacrifice, all without pricing. Price is a later public technique for making some of these burdens commensurable, and §11 illustrates that claim on a small allocation model.
 
 
 ## 4. Transaction Without Exchange
@@ -126,13 +126,15 @@ The Banksian phrase, money as a sign of poverty, is useful as a test. In monetar
 After economy names this fork. One path weakens the monopoly of price through commons, public provisioning, democratic planning, ecological constraint, and machine coordination accountable to political judgment. The other path completes total economy: every gesture scored, every attention stream auctioned, every ecological limit financialized, each access right tiered and each model optimized for an owner. The same technologies make both paths more plausible.
 
 
-## 11. A model of allocation under constraint
+## 11. A Stylized Model of Allocation Under Constraint
 
-The claim that price is an interface rather than a substrate can be made auditable on a small model. A system divides a fixed budget across six sectors, subsistence, infrastructure, care, knowledge, ecology, and finance, each with concave viability returns. Finance holds a low true weight, since it coordinates claims rather than sustaining the system directly. Three coordinators allocate the same budget. The constraint coordinator maximises total viability under the budget alone, with no prices, in the manner of a cell dividing energy among repair and maintenance. A faithful price coordinator sets prices equal to marginal viability. A financialised coordinator applies a speculative markup to the price of finance and allocates to maximise price-weighted return.
+The claim that price is an interface rather than a substrate can be illustrated, though not measured, on a small model. The model is a geometry, not evidence: it exhibits the direction of a mechanism, and it is built so that the mechanism comes out the way the argument expects. A system divides a fixed budget across six sectors, subsistence, infrastructure, care, knowledge, ecology, and finance, each with concave viability returns. Finance holds a low true weight, stipulated at 0.30, since the argument treats it as coordinating claims rather than sustaining the system directly. Three coordinators allocate the same budget. The constraint coordinator maximises total viability under the budget alone, with no prices, in the manner of a cell dividing energy among repair and maintenance. A faithful price coordinator sets every price to 1. A financialised coordinator applies a speculative markup to the price of finance and allocates to maximise price-weighted return.
 
-The constraint optimum reaches a total viability of 4.97 and holds finance at 0.02 of the budget. The faithful price coordinator reproduces that allocation exactly: its divergence from the optimum is 0.0. Undistorted, price is a transparent interface onto the allocation that constraint already determines, which is the sense in which price is not ontology.
+The constraint optimum reaches a total viability of 4.97 and holds finance at 0.02 of the budget. The faithful price coordinator reproduces that allocation exactly: its divergence from the optimum is 0.0. This identity is true by construction, not by discovery. With all prices set to 1, the faithful coordinator maximises the identical objective as the constraint coordinator, so the two solve the same optimization and must return the same allocation. The model could not have shown otherwise. Read modestly, it illustrates a definitional point, that an interface carrying no distortion is transparent, which is one sense in which price is not ontology.
 
-A markup on finance breaks the correspondence. At a distortion of 3 the financialised coordinator raises finance from 0.02 to 0.26 of the budget and loses 8.08 percent of true viability against the optimum. The loss grows with the distortion: at a markup of 8 finance takes more than half the budget and viability falls by 25.1 percent. These numbers describe the model's geometry. They measure no actual economy. A price interface that bears true marginal values is informationally free and reproduces the constraint optimum, and a distorted interface costs viability in proportion to how far it is distorted. The construction exhibits the mechanism and its direction while staying silent on the magnitude of any real misallocation. Allocation under constraint is the invariant. The price interface tracks it faithfully only while it stays undistorted, and the recursive markup of financialization is how the interface detaches from the allocation it was meant to track. The detachment costs viability that the priced surface does not display.
+A markup on finance breaks that transparency, and here too the result is engineered rather than found. At a distortion of 3 the financialised coordinator raises finance from 0.02 to 0.26 of the budget and forfeits 8.08 percent of the model's viability against the optimum. The loss grows with the distortion: at a markup of 8 finance takes more than half the budget and viability falls by 25.1 percent. That finance is the sector whose over-allocation costs viability follows from stipulating its true weight low; a markup on a high-weight sector would not read as waste in the same way. These numbers describe the model's geometry. They measure no actual economy. A price interface bearing no distortion reproduces the undistorted objective, and a distorted interface costs viability in proportion to how far it is distorted. The construction exhibits the mechanism and its direction while staying silent on the magnitude, or even the existence, of any real misallocation.
+
+The model also brackets a problem its own argument takes seriously. The constraint optimum is computed by an allocator with full information about every sector's true viability return, which is exactly the omniscient planner that Hayek and Mises (§9) hold no central authority can be. The model does not contest them. It assumes the full-information optimum as a reference point in order to show what an undistorted objective would yield, and it says nothing about whether any real planner, market, or computation could discover that optimum from dispersed and tacit knowledge. The knowledge problem is set aside, not solved. What the geometry shows is the gap a distorted objective opens relative to an undistorted one, on the deliberately generous assumption that the undistorted one is even available. Allocation under constraint is the invariant the model holds fixed. The recursive markup of financialization is the direction in which an interface can detach from the allocation it was meant to track, and the detachment costs viability that the priced surface does not display.
 
 The simulation in `simulation/` computes each allocation by water-filling on marginal viability and writes every figure and number to `simulation/output/results.json`.
 
@@ -152,13 +154,17 @@ Arrighi, G. (1994). *The Long Twentieth Century: Money, Power, and the Origins o
 
 Bataille, G. (1949). *The Accursed Share: An Essay on General Economy*. Les Editions de Minuit.
 
+Banks, I. M. (1994). A few notes on the Culture. Posted to rec.arts.sf.written, Usenet.
+
 Baudrillard, J. (1972). *For a Critique of the Political Economy of the Sign*. Gallimard.
+
+Beer, S. (1972). *Brain of the Firm: The Managerial Cybernetics of Organization*. Allen Lane.
 
 Benkler, Y. (2006). *The Wealth of Networks: How Social Production Transforms Markets and Freedom*. Yale University Press.
 
-Bourdieu, P. (1977). *Outline of a Theory of Practice*. Cambridge University Press.
+Bourdieu, P. (1972). *Esquisse d'une theorie de la pratique*. Librairie Droz.
 
-Bourdieu, P. (1984). *Distinction: A Social Critique of the Judgement of Taste*. Harvard University Press.
+Bourdieu, P. (1979). *La distinction: critique sociale du jugement*. Editions de Minuit.
 
 Braudel, F. (1979). *Civilization and Capitalism, 15th--18th Century*. Armand Colin.
 
@@ -176,6 +182,8 @@ Georgescu-Roegen, N. (1971). *The Entropy Law and the Economic Process*. Harvard
 
 Gibson, J. J. (1979). *The Ecological Approach to Visual Perception*. Houghton Mifflin.
 
+Girard, R. (1972). *Violence and the Sacred*. Editions Bernard Grasset.
+
 Goody, J. (1986). *The Logic of Writing and the Organization of Society*. Cambridge University Press.
 
 Graeber, D. (2011). *Debt: The First 5,000 Years*. Melville House.
@@ -192,7 +200,9 @@ Lyotard, J.-F. (1974). *Libidinal Economy*. Les Editions de Minuit.
 
 Marx, K. (1867). *Capital: A Critique of Political Economy, Volume I*. Verlag von Otto Meissner.
 
-Mauss, M. (1925). *The Gift: Forms and Functions of Exchange in Archaic Societies*. Presses Universitaires de France.
+Mauss, M. (1925). Essai sur le don: forme et raison de l'echange dans les societes archaiques. *L'Annee Sociologique*, 1, 30--186.
+
+Mises, L. von. (1920). Die Wirtschaftsrechnung im sozialistischen Gemeinwesen. *Archiv fur Sozialwissenschaft und Sozialpolitik*, 47, 86--121.
 
 Mitchell, T. (1998). Fixing the economy. *Cultural Studies*, 12(1), 82--101.
 
