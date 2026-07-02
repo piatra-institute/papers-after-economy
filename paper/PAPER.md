@@ -23,7 +23,7 @@ The useful threshold is *economicity*. A relation becomes economy-like when cons
 Economy enters before money and markets, and after bare constraint. The chain is narrower:
 
 $$
-\text{constraint} \rightarrow \text{flow} \rightarrow \text{cost} \rightarrow \text{allocation} \rightarrow \text{valuation} \rightarrow \text{commensuration} \rightarrow \text{price}.
+\text{constraint} \rightarrow \text{flow} \rightarrow \text{cost} \rightarrow \text{allocation} \rightarrow \text{bind} \rightarrow \text{valuation} \rightarrow \text{commensuration} \rightarrow \text{price}.
 $$
 
 Money generalizes some prices. Markets produce and discipline some prices. Capital reorganizes price around accumulation. Finance prices claims on future conditions. The historical error of monetary civilization is treating one interface in this chain as the truth of the whole chain.
