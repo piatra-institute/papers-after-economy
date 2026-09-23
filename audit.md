@@ -2,6 +2,15 @@
 
 Dated log of editorial passes and verification runs. Newest first.
 
+## 2026-09-23 — prose revision
+
+Prose revised against the house standards. Headings: Abstract; 1. Introduction; 2. Constraint and flow; 3. Cost in cells and organisms; 4. Sensorimotor transaction; 5. Gift and obligation; 6. Blood compensation; 7. Fiscal administration before capitalism; 8. Money, markets, and capital; 9. Financialization and computational allocation; 10. Ecological limits and post-scarcity; 11. A stylized allocation model; 12. Conclusion; Reproducibility.
+Tic counts before -> after: 'rather than' 4 -> 0; inline ', not X' 2 -> 0; exactly/precisely 2 -> 0; 'nothing more' removed. American spelling kept throughout.
+Citations: authors previously named without dates (Deacon, Prigogine, Schrodinger, Gibson, Uexkull, Mauss, Bourdieu, Polanyi, Sahlins, Graeber, Nietzsche, Girard, Bataille, Scott, Goody, Schmandt-Besserat, Hudson, Mitchell, Simmel, Marx, Weber, Braudel, Krippner, Hayek, Mises, Beer, Cockshott, Georgescu-Roegen, Daly, Banks) now carry author-year citations; previously uncited bibliography entries now cited where they support the text (Molenaar et al. 2009, Scott et al. 2010, Varela et al. 1991, Friston 2010, Hyams 2003, Nissen et al. 1993, Stern 2011, Epstein 2005, Arrighi 1994, Srnicek 2017, Zuboff 2019, Simon 1971, Benkler 2006, Ostrom 1990). Baudrillard and Lyotard remain uncited, as before. Krippner's definition restated with "primarily" (his wording) in place of "increasingly".
+Correction: section 11 said viability falls "in proportion to how far it is distorted". The sweep shows loss/markup rising from 0.60 (d = 0.25) to 3.14 (d = 8), so the loss is monotone and faster than linear; text corrected, and a monotonicity assertion added to allocation.py.
+Grid audit: allocations were computed by 200-step bisection on the multiplier (converged, not a grid). Added water_fill_closed_form (lambda = sum p w / (B + sum s)); max abs difference from bisection 8.9e-16 over all markups, recorded as closed_form_max_abs_error; the closed form is stated in section 11. All quoted numbers verified: 4.97 (4.965855), 0.02 (0.021318), 0.26 (0.262821), 8.08 (8.0812), more than half (0.521144), 25.1 (25.1286), divergence 0.0. results.json changed only by the added field.
+Figure title "Cost of a distorted price interface" replaced by "Viability loss and finance share versus finance price markup" (figure not embedded in the paper).
+
 ## 2026-06-13 — voice reform
 
 Scope: density and rhythm pass against the house voice guide. The paper read

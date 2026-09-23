@@ -41,7 +41,7 @@ def plot_loss(sweep_rows, path: str) -> None:
     ax2.plot(d, share, "s--", color="#2166ac", label="finance budget share (%)")
     ax2.set_ylabel("finance share of budget (%)", color="#2166ac")
     ax2.tick_params(axis="y", labelcolor="#2166ac")
-    ax1.set_title("Cost of a distorted price interface")
+    ax1.set_title("Viability loss and finance share versus finance price markup")
     fig.tight_layout()
     fig.savefig(path, dpi=140)
     plt.close(fig)

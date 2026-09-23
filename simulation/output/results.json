@@ -100,5 +100,6 @@
       "viability_loss_pct": 25.1286,
       "finance_share": 0.521144
     }
-  ]
+  ],
+  "closed_form_max_abs_error": 8.881784197001252e-16
 }

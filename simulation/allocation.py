@@ -60,6 +60,15 @@ def water_fill(prices: np.ndarray, budget: float = BUDGET,
     return np.maximum(0.0, ew / lam - s)
 
 
+def water_fill_closed_form(prices: np.ndarray, budget: float = BUDGET,
+                           w: np.ndarray = W, s: np.ndarray = S) -> np.ndarray:
+    """Closed-form solution when every sector receives a positive allocation:
+    lambda = sum(p w) / (budget + sum(s)), x_i = p_i w_i / lambda - s_i."""
+    ew = prices * w
+    lam = ew.sum() / (budget + s.sum())
+    return ew / lam - s
+
+
 def true_viability(x: np.ndarray, w: np.ndarray = W, s: np.ndarray = S) -> float:
     return float(np.sum(w * np.log1p(x / s)))
 
@@ -94,6 +103,16 @@ def run(distortion_ref: float = 3.0,
             "finance_share": round(fin, 6),
         })
 
+    # Invariant: bisection agrees with the closed form wherever all x_i > 0.
+    cf_err = 0.0
+    for d in (0.0, distortion_ref) + tuple(sweep):
+        xc = water_fill_closed_form(prices_with_distortion(d))
+        assert (xc > 0).all()
+        cf_err = max(cf_err, float(np.abs(xc - water_fill(prices_with_distortion(d))).max()))
+    assert cf_err < 1e-9, cf_err
+    losses = [r["viability_loss_pct"] for r in sweep_rows]
+    assert all(b > a for a, b in zip(losses, losses[1:])), "loss must rise with distortion"
+
     def alloc_map(x):
         return {sec: round(float(v), 6) for sec, v in zip(SECTORS, x)}
 
@@ -124,4 +143,5 @@ def run(distortion_ref: float = 3.0,
                     "loses true viability the price interface was meant to track",
         },
         "distortion_sweep": sweep_rows,
+        "closed_form_max_abs_error": cf_err,
     }

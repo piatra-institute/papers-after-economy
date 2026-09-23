@@ -1,0 +1,10 @@
+{
+  "manuscript_sha256": "d797b75d591ac519f32100eef827c17d00db594f5289d3a3d2a874262eeb8940",
+  "full_read": true,
+  "argument_review": true,
+  "structure_review": true,
+  "voice_review": true,
+  "source_review": true,
+  "final_read": true,
+  "notes": "Prose revision: descriptive headings (Introduction through Conclusion, new Reproducibility); abstract rewritten (239 words); 'rather than', inline contrasts and aphoristic closers removed; named-but-uncited authors given author-year citations from the existing bibliography; 'in proportion' claim about the model's loss corrected; closed-form solution of the allocation model stated and checked."
+}
