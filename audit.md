@@ -2,6 +2,17 @@
 
 Dated log of editorial passes and verification runs. Newest first.
 
+## 2026-09-23 — structured-evidence migration
+
+Structured-evidence migration (references and claims).
+- references.yaml: 45 CSL entries, entered by hand (only 7 of 47 legacy entries had automatic Crossref matches); DOIs checked for bourdieu1972, epstein2005, friston2010, georgescuroegen1971, goody1986, krippner2011, mitchell1998, molenaar2009, ostrom1990, scott2010, scott2017, stern2011, varela1991.
+- Corrections: legacy entries that paired English translation titles with the original publisher and year now carry the original titles (Bataille, La part maudite; Braudel, Civilisation matérielle, économie et capitalisme; Girard, La violence et le sacré; Marx, Das Kapital; Nietzsche, Zur Genealogie der Moral; Simmel, Philosophie des Geldes; Uexküll and Kriszat, Streifzüge durch die Umwelten von Tieren und Menschen, with Kriszat added as co-author; Weber, Die protestantische Ethik und der "Geist" des Kapitalismus). Accents restored in French and German titles. Baudrillard 1972 and Lyotard 1974 removed (listed but never cited).
+- Citations: possessive forms converted to suppress-author citations ("Deacon's [-@deacon2011] account"), which render as before.
+- claims.yaml: 27 claims (14 computation, 3 source, 5 interpretation, 2 assumption, 2 definition, 1 normative). Every model number in the abstract and section 11 is bound to simulation/output/results.json; "more than half" and "monotonically and faster than linearly" are interpretations citing the stored sweep. Source claims checked against OpenAlex abstracts: Molenaar et al. (cellular resource allocation), Mitchell (the economy as a mid-twentieth-century object), Ostrom (commons outside state and market).
+- Not bound (books without retrievable abstracts, or abstract silent): Friston 2010, Hayek, Mises, Mauss, Polanyi, Graeber, Krippner's definition of financialization, Scott 2017, Hudson, Nissen et al., Simon on attention, Banks, and the other book-length sources.
+- Execution receipt: run after-economy (uv run python run_all.py); results.json reproduced byte-identically.
+- metadata claims_target: results.json -> claim-ledger.
+
 ## 2026-09-23 — prose revision
 
 Prose revised against the house standards. Headings: Abstract; 1. Introduction; 2. Constraint and flow; 3. Cost in cells and organisms; 4. Sensorimotor transaction; 5. Gift and obligation; 6. Blood compensation; 7. Fiscal administration before capitalism; 8. Money, markets, and capital; 9. Financialization and computational allocation; 10. Ecological limits and post-scarcity; 11. A stylized allocation model; 12. Conclusion; Reproducibility.

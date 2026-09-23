@@ -1,0 +1,5 @@
+# Sources
+
+## Structured bibliography (2026-09-23)
+
+The inline reference list was migrated to references.yaml (CSL) and in-text citations to Pandoc [@id] syntax. No legacy entry carried a DOI and most are books without Crossref records, so the 45 entries were entered by hand; 13 carry DOIs checked against doi.org or Crossref (bourdieu1972, epstein2005, friston2010, georgescuroegen1971, goody1986, krippner2011, mitchell1998, molenaar2009, ostrom1990, scott2010, scott2017, stern2011, varela1991). Works cited by their original publication year are now entered under their original titles and publishers, since the legacy list paired English translation titles with the original-language publishers (Bataille, Braudel, Girard, Marx, Nietzsche, Simmel, Uexküll and Kriszat, Weber). Baudrillard (1972) and Lyotard (1974) were listed but never cited in the text and were removed. The MIT Press DOI record for *The Embodied Mind* lists the authors as Varela, Rosch, Thompson; the entry keeps the title-page order Varela, Thompson, Rosch. Source claims in claims.yaml were checked against abstracts retrieved from Crossref or OpenAlex.

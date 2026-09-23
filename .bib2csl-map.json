@@ -1,0 +1,438 @@
+[
+ {
+  "id": "arrighi1994",
+  "families": [
+   "Arrighi"
+  ],
+  "authors_text": "Arrighi, G.",
+  "year": "1994",
+  "status": "UNVERIFIED"
+ },
+ {
+  "id": "bataille1949",
+  "families": [
+   "Bataille"
+  ],
+  "authors_text": "Bataille, G.",
+  "year": "1949",
+  "status": "UNVERIFIED"
+ },
+ {
+  "id": "banks1994",
+  "families": [
+   "Banks"
+  ],
+  "authors_text": "Banks, I. M.",
+  "year": "1994",
+  "status": "UNVERIFIED"
+ },
+ {
+  "id": "baudrillard1972",
+  "families": [
+   "Baudrillard"
+  ],
+  "authors_text": "Baudrillard, J.",
+  "year": "1972",
+  "status": "UNVERIFIED"
+ },
+ {
+  "id": "beer1972",
+  "families": [
+   "Beer"
+  ],
+  "authors_text": "Beer, S.",
+  "year": "1972",
+  "status": "UNVERIFIED"
+ },
+ {
+  "id": "benkler2006",
+  "families": [
+   "Benkler"
+  ],
+  "authors_text": "Benkler, Y.",
+  "year": "2006",
+  "status": "UNVERIFIED"
+ },
+ {
+  "id": "bourdieu1972",
+  "families": [
+   "Bourdieu"
+  ],
+  "authors_text": "Bourdieu, P.",
+  "year": "1972",
+  "status": "VERIFIED-CROSSREF"
+ },
+ {
+  "id": "bourdieu1979",
+  "families": [
+   "Bourdieu"
+  ],
+  "authors_text": "Bourdieu, P.",
+  "year": "1979",
+  "status": "UNVERIFIED"
+ },
+ {
+  "id": "braudel1979",
+  "families": [
+   "Braudel"
+  ],
+  "authors_text": "Braudel, F.",
+  "year": "1979",
+  "status": "UNVERIFIED"
+ },
+ {
+  "id": "cockshott1993",
+  "families": [
+   "Cockshott",
+   "Cottrell"
+  ],
+  "authors_text": "Cockshott, P., & Cottrell, A.",
+  "year": "1993",
+  "status": "UNVERIFIED"
+ },
+ {
+  "id": "daly1977",
+  "families": [
+   "Daly"
+  ],
+  "authors_text": "Daly, H. E.",
+  "year": "1977",
+  "status": "UNVERIFIED"
+ },
+ {
+  "id": "deacon2011",
+  "families": [
+   "Deacon"
+  ],
+  "authors_text": "Deacon, T. W.",
+  "year": "2011",
+  "status": "UNVERIFIED"
+ },
+ {
+  "id": "epstein2005",
+  "families": [
+   "Epstein"
+  ],
+  "authors_text": "Epstein, G. A. (Ed.).",
+  "year": "2005",
+  "status": "VERIFIED-CROSSREF"
+ },
+ {
+  "id": "friston2010",
+  "families": [
+   "Friston"
+  ],
+  "authors_text": "Friston, K.",
+  "year": "2010",
+  "status": "UNVERIFIED"
+ },
+ {
+  "id": "georgescuroegen1971",
+  "families": [
+   "Georgescu-Roegen"
+  ],
+  "authors_text": "Georgescu-Roegen, N.",
+  "year": "1971",
+  "status": "VERIFIED-CROSSREF"
+ },
+ {
+  "id": "gibson1979",
+  "families": [
+   "Gibson"
+  ],
+  "authors_text": "Gibson, J. J.",
+  "year": "1979",
+  "status": "UNVERIFIED"
+ },
+ {
+  "id": "girard1972",
+  "families": [
+   "Girard"
+  ],
+  "authors_text": "Girard, R.",
+  "year": "1972",
+  "status": "UNVERIFIED"
+ },
+ {
+  "id": "goody1986",
+  "families": [
+   "Goody"
+  ],
+  "authors_text": "Goody, J.",
+  "year": "1986",
+  "status": "VERIFIED-CROSSREF"
+ },
+ {
+  "id": "graeber2011",
+  "families": [
+   "Graeber"
+  ],
+  "authors_text": "Graeber, D.",
+  "year": "2011",
+  "status": "UNVERIFIED"
+ },
+ {
+  "id": "hayek1945",
+  "families": [
+   "Hayek"
+  ],
+  "authors_text": "Hayek, F. A.",
+  "year": "1945",
+  "status": "UNVERIFIED"
+ },
+ {
+  "id": "hudson2002",
+  "families": [
+   "Hudson"
+  ],
+  "authors_text": "Hudson, M.",
+  "year": "2002",
+  "status": "UNVERIFIED"
+ },
+ {
+  "id": "hyams2003",
+  "families": [
+   "Hyams"
+  ],
+  "authors_text": "Hyams, P. R.",
+  "year": "2003",
+  "status": "UNVERIFIED"
+ },
+ {
+  "id": "krippner2011",
+  "families": [
+   "Krippner"
+  ],
+  "authors_text": "Krippner, G. R.",
+  "year": "2011",
+  "status": "UNVERIFIED"
+ },
+ {
+  "id": "lyotard1974",
+  "families": [
+   "Lyotard"
+  ],
+  "authors_text": "Lyotard, J.-F.",
+  "year": "1974",
+  "status": "UNVERIFIED"
+ },
+ {
+  "id": "marx1867",
+  "families": [
+   "Marx"
+  ],
+  "authors_text": "Marx, K.",
+  "year": "1867",
+  "status": "UNVERIFIED"
+ },
+ {
+  "id": "mauss1925",
+  "families": [
+   "Mauss"
+  ],
+  "authors_text": "Mauss, M.",
+  "year": "1925",
+  "status": "UNVERIFIED"
+ },
+ {
+  "id": "mises1920",
+  "families": [
+   "Mises"
+  ],
+  "authors_text": "Mises, L. von.",
+  "year": "1920",
+  "status": "UNVERIFIED"
+ },
+ {
+  "id": "mitchell1998",
+  "families": [
+   "Mitchell"
+  ],
+  "authors_text": "Mitchell, T.",
+  "year": "1998",
+  "status": "VERIFIED-CROSSREF"
+ },
+ {
+  "id": "molenaar2009",
+  "families": [
+   "Molenaar",
+   "Van Berlo",
+   "De Ridder",
+   "Teusink"
+  ],
+  "authors_text": "Molenaar, D., Van Berlo, R., De Ridder, D., & Teusink, B.",
+  "year": "2009",
+  "status": "VERIFIED-CROSSREF"
+ },
+ {
+  "id": "nietzsche1887",
+  "families": [
+   "Nietzsche"
+  ],
+  "authors_text": "Nietzsche, F.",
+  "year": "1887",
+  "status": "UNVERIFIED"
+ },
+ {
+  "id": "nissen1993",
+  "families": [
+   "Nissen",
+   "Damerow",
+   "Englund"
+  ],
+  "authors_text": "Nissen, H. J., Damerow, P., & Englund, R. K.",
+  "year": "1993",
+  "status": "UNVERIFIED"
+ },
+ {
+  "id": "ostrom1990",
+  "families": [
+   "Ostrom"
+  ],
+  "authors_text": "Ostrom, E.",
+  "year": "1990",
+  "status": "UNVERIFIED"
+ },
+ {
+  "id": "polanyi1944",
+  "families": [
+   "Polanyi"
+  ],
+  "authors_text": "Polanyi, K.",
+  "year": "1944",
+  "status": "UNVERIFIED"
+ },
+ {
+  "id": "prigogine1984",
+  "families": [
+   "Prigogine",
+   "Stengers"
+  ],
+  "authors_text": "Prigogine, I., & Stengers, I.",
+  "year": "1984",
+  "status": "UNVERIFIED"
+ },
+ {
+  "id": "sahlins1972",
+  "families": [
+   "Sahlins"
+  ],
+  "authors_text": "Sahlins, M.",
+  "year": "1972",
+  "status": "UNVERIFIED"
+ },
+ {
+  "id": "schmandtbesserat1992",
+  "families": [
+   "Schmandt-Besserat"
+  ],
+  "authors_text": "Schmandt-Besserat, D.",
+  "year": "1992",
+  "status": "UNVERIFIED"
+ },
+ {
+  "id": "schrodinger1944",
+  "families": [
+   "Schrodinger"
+  ],
+  "authors_text": "Schrodinger, E.",
+  "year": "1944",
+  "status": "UNVERIFIED"
+ },
+ {
+  "id": "scott2017",
+  "families": [
+   "Scott"
+  ],
+  "authors_text": "Scott, J. C.",
+  "year": "2017",
+  "status": "UNVERIFIED"
+ },
+ {
+  "id": "scott2010",
+  "families": [
+   "Scott",
+   "Gunderson",
+   "Mateescu",
+   "Zhang",
+   "Hwa"
+  ],
+  "authors_text": "Scott, M., Gunderson, C. W., Mateescu, E. M., Zhang, Z., & Hwa, T.",
+  "year": "2010",
+  "status": "VERIFIED-CROSSREF"
+ },
+ {
+  "id": "simmel1900",
+  "families": [
+   "Simmel"
+  ],
+  "authors_text": "Simmel, G.",
+  "year": "1900",
+  "status": "UNVERIFIED"
+ },
+ {
+  "id": "simon1971",
+  "families": [
+   "Simon"
+  ],
+  "authors_text": "Simon, H. A.",
+  "year": "1971",
+  "status": "UNVERIFIED"
+ },
+ {
+  "id": "srnicek2017",
+  "families": [
+   "Srnicek"
+  ],
+  "authors_text": "Srnicek, N.",
+  "year": "2017",
+  "status": "UNVERIFIED"
+ },
+ {
+  "id": "stern2011",
+  "families": [
+   "Stern"
+  ],
+  "authors_text": "Stern, P. J.",
+  "year": "2011",
+  "status": "UNVERIFIED"
+ },
+ {
+  "id": "uexkull1934",
+  "families": [
+   "Uexküll"
+  ],
+  "authors_text": "Uexküll, J. von.",
+  "year": "1934",
+  "status": "UNVERIFIED"
+ },
+ {
+  "id": "varela1991",
+  "families": [
+   "Varela",
+   "Thompson",
+   "Rosch"
+  ],
+  "authors_text": "Varela, F. J., Thompson, E., & Rosch, E.",
+  "year": "1991",
+  "status": "UNVERIFIED"
+ },
+ {
+  "id": "weber1905",
+  "families": [
+   "Weber"
+  ],
+  "authors_text": "Weber, M.",
+  "year": "1905",
+  "status": "UNVERIFIED"
+ },
+ {
+  "id": "zuboff2019",
+  "families": [
+   "Zuboff"
+  ],
+  "authors_text": "Zuboff, S.",
+  "year": "2019",
+  "status": "UNVERIFIED"
+ }
+]

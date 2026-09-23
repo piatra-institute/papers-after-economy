@@ -1,5 +1,5 @@
 {
-  "pdf_sha256": "4e5cd3d3d3931f5819feaf1da42164b74d76c7ad135096cc7e7fc5bed39b3f0d",
+  "pdf_sha256": "6d91628251ad330712f22c0f7f87da994f74c4264ec9d9d17a6a89bfa82a235c",
   "page_count": 12,
   "pages_inspected": [
     1,
@@ -16,5 +16,5 @@
     12
   ],
   "all_pages_inspected": true,
-  "notes": "All 12 pages inspected after the prose revision; equations and references render cleanly; the paper embeds no figures. Metadata-only rebuild: the web blurb in metadata.yaml, a hashed build input, changed, so the PDF was re-rendered (73da461bb4c3 to 4e5cd3d3d393); the rendered text is byte-for-byte identical and no page was re-inspected."
+  "notes": "All 12 pages inspected after the migration; citations and the citeproc reference list render correctly, with no unresolved citation keys. Metadata-only rebuild: the web blurb in metadata.yaml, a hashed build input, changed, so the PDF was re-rendered (0dc2acbdbb52 to 6d91628251ad); the rendered text is byte-for-byte identical and no page was re-inspected."
 }

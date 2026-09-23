@@ -1,10 +1,10 @@
 {
-  "manuscript_sha256": "d797b75d591ac519f32100eef827c17d00db594f5289d3a3d2a874262eeb8940",
+  "manuscript_sha256": "39acb3093af11d74da1980d01003e5168155c3dad7684b8d4b9570788afeff33",
   "full_read": true,
   "argument_review": true,
   "structure_review": true,
   "voice_review": true,
   "source_review": true,
   "final_read": true,
-  "notes": "Prose revision: descriptive headings (Introduction through Conclusion, new Reproducibility); abstract rewritten (239 words); 'rather than', inline contrasts and aphoristic closers removed; named-but-uncited authors given author-year citations from the existing bibliography; 'in proportion' claim about the model's loss corrected; closed-form solution of the allocation model stated and checked."
+  "notes": "Structured-evidence migration: inline bibliography converted to references.yaml (CSL) with Pandoc [@id] citations; claims.yaml ledger and execution receipt added; prose unchanged apart from citation syntax."
 }

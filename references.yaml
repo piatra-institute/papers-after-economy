@@ -1,0 +1,577 @@
+# CSL references with stable IDs; cite with Pandoc [@id] syntax.
+# Migrated from the legacy inline bibliography; entries with DOIs were checked against doi.org
+# records, others entered by hand. Provenance per entry is in sources.md.
+references:
+- id: arrighi1994
+  type: book
+  title: 'The Long Twentieth Century: Money, Power, and the Origins of Our Times'
+  author:
+  - family: Arrighi
+    given: Giovanni
+  publisher: Verso
+  issued:
+    date-parts:
+    - - 1994
+  publisher-place: London
+- id: banks1994
+  type: post
+  title: A Few Notes on the Culture
+  author:
+  - family: Banks
+    given: Iain M.
+  container-title: rec.arts.sf.written (Usenet)
+  issued:
+    date-parts:
+    - - 1994
+      - 8
+      - 10
+- id: bataille1949
+  type: book
+  title: 'La part maudite: essai d’économie générale'
+  author:
+  - family: Bataille
+    given: Georges
+  publisher: Éditions de Minuit
+  issued:
+    date-parts:
+    - - 1949
+  publisher-place: Paris
+  language: fr
+- id: beer1972
+  type: book
+  title: 'Brain of the Firm: The Managerial Cybernetics of Organization'
+  author:
+  - family: Beer
+    given: Stafford
+  publisher: Allen Lane
+  issued:
+    date-parts:
+    - - 1972
+  publisher-place: London
+- id: benkler2006
+  type: book
+  title: 'The Wealth of Networks: How Social Production Transforms Markets and Freedom'
+  author:
+  - family: Benkler
+    given: Yochai
+  publisher: Yale University Press
+  issued:
+    date-parts:
+    - - 2006
+  publisher-place: New Haven
+- id: bourdieu1972
+  type: book
+  title: Esquisse d’une théorie de la pratique
+  author:
+  - family: Bourdieu
+    given: Pierre
+  publisher: Librairie Droz
+  issued:
+    date-parts:
+    - - 1972
+  publisher-place: Geneva
+  DOI: 10.3917/droz.bourd.1972.01
+  language: fr
+- id: bourdieu1979
+  type: book
+  title: 'La distinction: critique sociale du jugement'
+  author:
+  - family: Bourdieu
+    given: Pierre
+  publisher: Éditions de Minuit
+  issued:
+    date-parts:
+    - - 1979
+  publisher-place: Paris
+  language: fr
+- id: braudel1979
+  type: book
+  title: Civilisation matérielle, économie et capitalisme, XVe–XVIIIe siècle
+  author:
+  - family: Braudel
+    given: Fernand
+  publisher: Armand Colin
+  issued:
+    date-parts:
+    - - 1979
+  publisher-place: Paris
+  language: fr
+- id: cockshott1993
+  type: book
+  title: Towards a New Socialism
+  author:
+  - family: Cockshott
+    given: W. Paul
+  - family: Cottrell
+    given: Allin
+  publisher: Spokesman
+  issued:
+    date-parts:
+    - - 1993
+  publisher-place: Nottingham
+- id: daly1977
+  type: book
+  title: Steady-State Economics
+  author:
+  - family: Daly
+    given: Herman E.
+  publisher: W. H. Freeman
+  issued:
+    date-parts:
+    - - 1977
+  publisher-place: San Francisco
+- id: deacon2011
+  type: book
+  title: 'Incomplete Nature: How Mind Emerged from Matter'
+  author:
+  - family: Deacon
+    given: Terrence W.
+  publisher: W. W. Norton
+  issued:
+    date-parts:
+    - - 2011
+  publisher-place: New York
+- id: epstein2005
+  type: book
+  title: Financialization and the World Economy
+  editor:
+  - family: Epstein
+    given: Gerald A.
+  publisher: Edward Elgar
+  publisher-place: Cheltenham
+  DOI: 10.4337/9781781008263
+  issued:
+    date-parts:
+    - - 2005
+- id: friston2010
+  type: article-journal
+  title: 'The free-energy principle: a unified brain theory?'
+  author:
+  - family: Friston
+    given: Karl
+  container-title: Nature Reviews Neuroscience
+  volume: '11'
+  issue: '2'
+  page: 127-138
+  DOI: 10.1038/nrn2787
+  issued:
+    date-parts:
+    - - 2010
+- id: georgescuroegen1971
+  type: book
+  title: The Entropy Law and the Economic Process
+  author:
+  - family: Georgescu-Roegen
+    given: Nicholas
+  publisher: Harvard University Press
+  issued:
+    date-parts:
+    - - 1971
+  publisher-place: Cambridge, MA
+  DOI: 10.4159/harvard.9780674281653
+- id: gibson1979
+  type: book
+  title: The Ecological Approach to Visual Perception
+  author:
+  - family: Gibson
+    given: James J.
+  publisher: Houghton Mifflin
+  issued:
+    date-parts:
+    - - 1979
+  publisher-place: Boston
+- id: girard1972
+  type: book
+  title: La violence et le sacré
+  author:
+  - family: Girard
+    given: René
+  publisher: Grasset
+  issued:
+    date-parts:
+    - - 1972
+  publisher-place: Paris
+  language: fr
+- id: goody1986
+  type: book
+  title: The Logic of Writing and the Organization of Society
+  author:
+  - family: Goody
+    given: Jack
+  publisher: Cambridge University Press
+  issued:
+    date-parts:
+    - - 1986
+  publisher-place: Cambridge
+  DOI: 10.1017/CBO9780511621598
+- id: graeber2011
+  type: book
+  title: 'Debt: The First 5,000 Years'
+  author:
+  - family: Graeber
+    given: David
+  publisher: Melville House
+  issued:
+    date-parts:
+    - - 2011
+  publisher-place: New York
+- id: hayek1945
+  type: article-journal
+  title: The Use of Knowledge in Society
+  author:
+  - family: Hayek
+    given: F. A.
+  container-title: American Economic Review
+  volume: '35'
+  issue: '4'
+  page: 519-530
+  issued:
+    date-parts:
+    - - 1945
+- id: hudson2002
+  type: chapter
+  title: Reconstructing the Origins of Interest-Bearing Debt and the Logic of Clean Slates
+  author:
+  - family: Hudson
+    given: Michael
+  editor:
+  - family: Hudson
+    given: Michael
+  - family: Van De Mieroop
+    given: Marc
+  container-title: Debt and Economic Renewal in the Ancient Near East
+  publisher: CDL Press
+  publisher-place: Bethesda, MD
+  issued:
+    date-parts:
+    - - 2002
+- id: hyams2003
+  type: book
+  title: Rancor and Reconciliation in Medieval England
+  author:
+  - family: Hyams
+    given: Paul R.
+  publisher: Cornell University Press
+  issued:
+    date-parts:
+    - - 2003
+  publisher-place: Ithaca, NY
+- id: krippner2011
+  type: book
+  title: 'Capitalizing on Crisis: The Political Origins of the Rise of Finance'
+  author:
+  - family: Krippner
+    given: Greta R.
+  publisher: Harvard University Press
+  issued:
+    date-parts:
+    - - 2011
+  publisher-place: Cambridge, MA
+  DOI: 10.4159/9780674058873
+- id: marx1867
+  type: book
+  title: 'Das Kapital: Kritik der politischen Oekonomie, Erster Band'
+  author:
+  - family: Marx
+    given: Karl
+  publisher: Otto Meissner
+  issued:
+    date-parts:
+    - - 1867
+  publisher-place: Hamburg
+  language: de
+- id: mauss1925
+  type: article-journal
+  title: 'Essai sur le don: forme et raison de l’échange dans les sociétés archaïques'
+  author:
+  - family: Mauss
+    given: Marcel
+  container-title: L’Année sociologique, nouvelle série
+  volume: '1'
+  page: 30-186
+  language: fr
+  issued:
+    date-parts:
+    - - 1925
+- id: mises1920
+  type: article-journal
+  title: Die Wirtschaftsrechnung im sozialistischen Gemeinwesen
+  author:
+  - family: Mises
+    given: Ludwig von
+  container-title: Archiv für Sozialwissenschaft und Sozialpolitik
+  volume: '47'
+  page: 86-121
+  language: de
+  issued:
+    date-parts:
+    - - 1920
+- id: mitchell1998
+  type: article-journal
+  title: Fixing the Economy
+  author:
+  - family: Mitchell
+    given: Timothy
+  container-title: Cultural Studies
+  volume: '12'
+  issue: '1'
+  page: 82-101
+  DOI: 10.1080/095023898335627
+  issued:
+    date-parts:
+    - - 1998
+- id: molenaar2009
+  type: article-journal
+  title: Shifts in growth strategies reflect tradeoffs in cellular economics
+  author:
+  - family: Molenaar
+    given: Douwe
+  - family: van Berlo
+    given: Rogier
+  - family: de Ridder
+    given: Dick
+  - family: Teusink
+    given: Bas
+  container-title: Molecular Systems Biology
+  volume: '5'
+  page: '323'
+  DOI: 10.1038/msb.2009.82
+  issued:
+    date-parts:
+    - - 2009
+- id: nietzsche1887
+  type: book
+  title: 'Zur Genealogie der Moral: Eine Streitschrift'
+  author:
+  - family: Nietzsche
+    given: Friedrich
+  publisher: C. G. Naumann
+  issued:
+    date-parts:
+    - - 1887
+  publisher-place: Leipzig
+  language: de
+- id: nissen1993
+  type: book
+  title: 'Archaic Bookkeeping: Early Writing and Techniques of Economic Administration in the Ancient
+    Near East'
+  author:
+  - family: Nissen
+    given: Hans J.
+  - family: Damerow
+    given: Peter
+  - family: Englund
+    given: Robert K.
+  publisher: University of Chicago Press
+  issued:
+    date-parts:
+    - - 1993
+  publisher-place: Chicago
+- id: ostrom1990
+  type: book
+  title: 'Governing the Commons: The Evolution of Institutions for Collective Action'
+  author:
+  - family: Ostrom
+    given: Elinor
+  publisher: Cambridge University Press
+  issued:
+    date-parts:
+    - - 1990
+  publisher-place: Cambridge
+  DOI: 10.1017/CBO9780511807763
+- id: polanyi1944
+  type: book
+  title: The Great Transformation
+  author:
+  - family: Polanyi
+    given: Karl
+  publisher: Farrar & Rinehart
+  issued:
+    date-parts:
+    - - 1944
+  publisher-place: New York
+- id: prigogine1984
+  type: book
+  title: 'Order Out of Chaos: Man’s New Dialogue with Nature'
+  author:
+  - family: Prigogine
+    given: Ilya
+  - family: Stengers
+    given: Isabelle
+  publisher: Bantam
+  issued:
+    date-parts:
+    - - 1984
+  publisher-place: New York
+- id: sahlins1972
+  type: book
+  title: Stone Age Economics
+  author:
+  - family: Sahlins
+    given: Marshall
+  publisher: Aldine-Atherton
+  issued:
+    date-parts:
+    - - 1972
+  publisher-place: Chicago
+- id: schmandtbesserat1992
+  type: book
+  title: Before Writing
+  author:
+  - family: Schmandt-Besserat
+    given: Denise
+  publisher: University of Texas Press
+  issued:
+    date-parts:
+    - - 1992
+  publisher-place: Austin
+- id: schrodinger1944
+  type: book
+  title: What Is Life? The Physical Aspect of the Living Cell
+  author:
+  - family: Schrödinger
+    given: Erwin
+  publisher: Cambridge University Press
+  issued:
+    date-parts:
+    - - 1944
+  publisher-place: Cambridge
+- id: scott2010
+  type: article-journal
+  title: 'Interdependence of Cell Growth and Gene Expression: Origins and Consequences'
+  author:
+  - family: Scott
+    given: Matthew
+  - family: Gunderson
+    given: Carl W.
+  - family: Mateescu
+    given: Eduard M.
+  - family: Zhang
+    given: Zhongge
+  - family: Hwa
+    given: Terence
+  container-title: Science
+  volume: '330'
+  issue: '6007'
+  page: 1099-1102
+  DOI: 10.1126/science.1192588
+  issued:
+    date-parts:
+    - - 2010
+- id: scott2017
+  type: book
+  title: 'Against the Grain: A Deep History of the Earliest States'
+  author:
+  - family: Scott
+    given: James C.
+  publisher: Yale University Press
+  issued:
+    date-parts:
+    - - 2017
+  publisher-place: New Haven
+  DOI: 10.12987/9780300231687
+- id: simmel1900
+  type: book
+  title: Philosophie des Geldes
+  author:
+  - family: Simmel
+    given: Georg
+  publisher: Duncker & Humblot
+  issued:
+    date-parts:
+    - - 1900
+  publisher-place: Leipzig
+  language: de
+- id: simon1971
+  type: chapter
+  title: Designing Organizations for an Information-Rich World
+  author:
+  - family: Simon
+    given: Herbert A.
+  editor:
+  - family: Greenberger
+    given: Martin
+  container-title: Computers, Communications, and the Public Interest
+  publisher: Johns Hopkins University Press
+  publisher-place: Baltimore
+  page: 37-72
+  issued:
+    date-parts:
+    - - 1971
+- id: srnicek2017
+  type: book
+  title: Platform Capitalism
+  author:
+  - family: Srnicek
+    given: Nick
+  publisher: Polity
+  issued:
+    date-parts:
+    - - 2017
+  publisher-place: Cambridge
+- id: stern2011
+  type: book
+  title: 'The Company-State: Corporate Sovereignty and the Early Modern Foundations of the British Empire
+    in India'
+  author:
+  - family: Stern
+    given: Philip J.
+  publisher: Oxford University Press
+  issued:
+    date-parts:
+    - - 2011
+  publisher-place: New York
+  DOI: 10.1093/acprof:oso/9780195393736.001.0001
+- id: uexkull1934
+  type: book
+  title: Streifzüge durch die Umwelten von Tieren und Menschen
+  author:
+  - family: Uexküll
+    given: Jakob von
+  - family: Kriszat
+    given: Georg
+  publisher: Julius Springer
+  issued:
+    date-parts:
+    - - 1934
+  publisher-place: Berlin
+  language: de
+- id: varela1991
+  type: book
+  title: 'The Embodied Mind: Cognitive Science and Human Experience'
+  author:
+  - family: Varela
+    given: Francisco J.
+  - family: Thompson
+    given: Evan
+  - family: Rosch
+    given: Eleanor
+  publisher: MIT Press
+  issued:
+    date-parts:
+    - - 1991
+  publisher-place: Cambridge, MA
+  DOI: 10.7551/mitpress/6730.001.0001
+- id: weber1905
+  type: article-journal
+  title: Die protestantische Ethik und der „Geist“ des Kapitalismus
+  author:
+  - family: Weber
+    given: Max
+  container-title: Archiv für Sozialwissenschaft und Sozialpolitik
+  volume: 20–21
+  language: de
+  issued:
+    date-parts:
+    - - 1905
+- id: zuboff2019
+  type: book
+  title: 'The Age of Surveillance Capitalism: The Fight for a Human Future at the New Frontier of Power'
+  author:
+  - family: Zuboff
+    given: Shoshana
+  publisher: PublicAffairs
+  issued:
+    date-parts:
+    - - 2019
+  publisher-place: New York

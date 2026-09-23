@@ -1,0 +1,282 @@
+schema: 1
+coverage: reviewed
+reviewed_manuscript_sha256: 39acb3093af11d74da1980d01003e5168155c3dad7684b8d4b9570788afeff33
+claims:
+- id: abs-share-opt
+  kind: computation
+  passage: 'A stylized six-sector allocation model illustrates the structure: undistorted prices reproduce
+    the constraint optimum by construction, while a markup of 3 on finance raises its budget share from
+    0.02 to 0.26 and lowers total viability by 8.08 percent.'
+  evidence:
+    file: simulation/output/results.json
+    run_id: after-economy
+    pointer: /financialised/finance_share_optimum
+    reported: '0.02'
+    units: finance budget share at the optimum
+    conditions: six-sector allocation model, budget B = 6, s_i = 0.5, finance true weight 0.30; deterministic
+      closed form
+    decimals: 2
+- id: abs-share-fin
+  kind: computation
+  passage: 'A stylized six-sector allocation model illustrates the structure: undistorted prices reproduce
+    the constraint optimum by construction, while a markup of 3 on finance raises its budget share from
+    0.02 to 0.26 and lowers total viability by 8.08 percent.'
+  evidence:
+    file: simulation/output/results.json
+    run_id: after-economy
+    pointer: /financialised/finance_share
+    reported: '0.26'
+    units: finance budget share at markup 3
+    conditions: six-sector allocation model, budget B = 6, s_i = 0.5, finance true weight 0.30; deterministic
+      closed form; markup d = 3
+    decimals: 2
+- id: abs-loss
+  kind: computation
+  passage: 'A stylized six-sector allocation model illustrates the structure: undistorted prices reproduce
+    the constraint optimum by construction, while a markup of 3 on finance raises its budget share from
+    0.02 to 0.26 and lowers total viability by 8.08 percent.'
+  evidence:
+    file: simulation/output/results.json
+    run_id: after-economy
+    pointer: /financialised/viability_loss_pct
+    reported: '8.08'
+    units: percent of optimal total viability
+    conditions: six-sector allocation model, budget B = 6, s_i = 0.5, finance true weight 0.30; deterministic
+      closed form; markup d = 3
+    decimals: 2
+- id: abs-markup
+  kind: computation
+  passage: 'A stylized six-sector allocation model illustrates the structure: undistorted prices reproduce
+    the constraint optimum by construction, while a markup of 3 on finance raises its budget share from
+    0.02 to 0.26 and lowers total viability by 8.08 percent.'
+  evidence:
+    file: simulation/output/results.json
+    run_id: after-economy
+    pointer: /financialised/distortion
+    reported: '3'
+    units: markup on finance
+    conditions: six-sector allocation model, budget B = 6, s_i = 0.5, finance true weight 0.30; deterministic
+      closed form
+    decimals: 0
+- id: s11-budget
+  kind: computation
+  passage: A system divides a fixed budget $B = 6$ across six sectors (subsistence, infrastructure, care,
+    knowledge, ecology, and finance), each with concave viability return $V_i(x) = w_i \log(1 + x/s_i)$
+    and common scale $s_i = 0.5$.
+  evidence:
+    file: simulation/output/results.json
+    run_id: after-economy
+    pointer: /budget
+    reported: '6'
+    units: budget units
+    conditions: six-sector allocation model, budget B = 6, s_i = 0.5, finance true weight 0.30; deterministic
+      closed form
+    decimals: 0
+- id: s11-weight
+  kind: computation
+  passage: Finance has a low true weight, stipulated at 0.30, on the assumption that it coordinates claims
+    and does not itself sustain the system.
+  evidence:
+    file: simulation/output/results.json
+    run_id: after-economy
+    pointer: /true_weights/finance
+    reported: '0.30'
+    units: viability weight
+    conditions: six-sector allocation model, budget B = 6, s_i = 0.5, finance true weight 0.30; deterministic
+      closed form
+    decimals: 2
+- id: s11-closed
+  kind: computation
+  passage: The simulation computes the allocations by bisection on $\lambda$ and checks them against this
+    closed form, to within $9 \times 10^{-16}$.
+  evidence:
+    file: simulation/output/results.json
+    run_id: after-economy
+    pointer: /closed_form_max_abs_error
+    reported: 9 \times 10^{-16}
+    units: maximum absolute error, bisection vs closed form
+    conditions: six-sector allocation model, budget B = 6, s_i = 0.5, finance true weight 0.30; deterministic
+      closed form
+    significant_digits: 1
+- id: s11-viab
+  kind: computation
+  passage: The constraint optimum reaches a total viability of 4.97 and assigns 0.02 of the budget to
+    finance.
+  evidence:
+    file: simulation/output/results.json
+    run_id: after-economy
+    pointer: /constraint_optimum/viability
+    reported: '4.97'
+    units: total viability
+    conditions: six-sector allocation model, budget B = 6, s_i = 0.5, finance true weight 0.30; deterministic
+      closed form
+    decimals: 2
+- id: s11-share
+  kind: computation
+  passage: The constraint optimum reaches a total viability of 4.97 and assigns 0.02 of the budget to
+    finance.
+  evidence:
+    file: simulation/output/results.json
+    run_id: after-economy
+    pointer: /financialised/finance_share_optimum
+    reported: '0.02'
+    units: finance budget share
+    conditions: six-sector allocation model, budget B = 6, s_i = 0.5, finance true weight 0.30; deterministic
+      closed form
+    decimals: 2
+- id: s11-div
+  kind: computation
+  passage: The faithful price coordinator reproduces that allocation, with a divergence from the optimum
+    of 0.0.
+  evidence:
+    file: simulation/output/results.json
+    run_id: after-economy
+    pointer: /faithful_price/divergence_from_optimum
+    reported: '0.0'
+    units: divergence from the optimum
+    conditions: six-sector allocation model, budget B = 6, s_i = 0.5, finance true weight 0.30; deterministic
+      closed form; all prices 1
+    decimals: 1
+- id: s11-m3-opt
+  kind: computation
+  passage: At a markup of 3 the financialized coordinator raises finance from 0.02 to 0.26 of the budget
+    and loses 8.08 percent of total viability relative to the optimum.
+  evidence:
+    file: simulation/output/results.json
+    run_id: after-economy
+    pointer: /financialised/finance_share_optimum
+    reported: '0.02'
+    units: finance budget share at the optimum
+    conditions: six-sector allocation model, budget B = 6, s_i = 0.5, finance true weight 0.30; deterministic
+      closed form
+    decimals: 2
+- id: s11-m3-share
+  kind: computation
+  passage: At a markup of 3 the financialized coordinator raises finance from 0.02 to 0.26 of the budget
+    and loses 8.08 percent of total viability relative to the optimum.
+  evidence:
+    file: simulation/output/results.json
+    run_id: after-economy
+    pointer: /financialised/finance_share
+    reported: '0.26'
+    units: finance budget share
+    conditions: six-sector allocation model, budget B = 6, s_i = 0.5, finance true weight 0.30; deterministic
+      closed form; markup 3
+    decimals: 2
+- id: s11-m3-loss
+  kind: computation
+  passage: At a markup of 3 the financialized coordinator raises finance from 0.02 to 0.26 of the budget
+    and loses 8.08 percent of total viability relative to the optimum.
+  evidence:
+    file: simulation/output/results.json
+    run_id: after-economy
+    pointer: /financialised/viability_loss_pct
+    reported: '8.08'
+    units: percent viability loss
+    conditions: six-sector allocation model, budget B = 6, s_i = 0.5, finance true weight 0.30; deterministic
+      closed form; markup 3
+    decimals: 2
+- id: s11-m8-loss
+  kind: computation
+  passage: 'The loss rises monotonically and faster than linearly with the markup: at a markup of 8 finance
+    takes more than half the budget and viability falls by 25.1 percent.'
+  evidence:
+    file: simulation/output/results.json
+    run_id: after-economy
+    pointer: /distortion_sweep/6/viability_loss_pct
+    reported: '25.1'
+    units: percent viability loss
+    conditions: six-sector allocation model, budget B = 6, s_i = 0.5, finance true weight 0.30; deterministic
+      closed form; markup 8
+    decimals: 1
+- id: s11-m8-half
+  kind: interpretation
+  passage: 'The loss rises monotonically and faster than linearly with the markup: at a markup of 8 finance
+    takes more than half the budget and viability falls by 25.1 percent.'
+  rationale: 'Summary of stored values: at markup 8 the finance share is 0.521 (/distortion_sweep/6/finance_share),
+    i.e. more than half; the loss sequence 0, 0.15, 0.52, 1.65, 4.67, 11.59, 25.13 percent over markups
+    0-8 (/distortion_sweep) is increasing and convex.'
+- id: s11-by-construction
+  kind: interpretation
+  passage: 'This identity holds by construction: with all prices equal to 1 the faithful coordinator maximizes
+    the same objective as the constraint coordinator, so the two must return the same allocation.'
+  rationale: 'Analytic: with all prices 1 the faithful objective equals the constraint objective, so the
+    allocations coincide; the stored divergence 0.0 confirms it numerically.'
+- id: s11-not-measurement
+  kind: interpretation
+  passage: These numbers describe the model's geometry and measure no actual economy.
+  rationale: States the evidential scope of the model results.
+- id: s11-assume-weight
+  kind: assumption
+  passage: Finance has a low true weight, stipulated at 0.30, on the assumption that it coordinates claims
+    and does not itself sustain the system.
+  rationale: The low weight on finance is a stipulation; the text notes that a markup on a high-weight
+    sector would not appear as waste in the same way.
+- id: s11-assume-omniscient
+  kind: assumption
+  passage: It assumes the full-information optimum as a reference point to show what an undistorted objective
+    would yield, and it says nothing about whether any real planner, market, or computation could discover
+    that optimum from dispersed and tacit knowledge.
+  rationale: The optimum is computed with full knowledge of true weights, the planner that Hayek and Mises
+    argue cannot exist; the model says nothing about discovering it.
+- id: def-economicity
+  kind: definition
+  passage: A relation becomes economy-like when constrained flows are recurrently allocated under a value
+    frame and a stabilizing mechanism, which may be metabolism, habit, kinship, ritual, law, fiscal administration,
+    money, platform code, or ecological governance.
+  rationale: Stipulative definition of economicity used to order the chain from constraint to price.
+- id: def-transaction
+  kind: definition
+  passage: In this broad sense a transaction is a state-changing coupling between systems.
+  rationale: Stipulative broad definition that makes monetary exchange a special case.
+- id: interp-price-late
+  kind: interpretation
+  passage: Price can exist without a market, and value without a price.
+  rationale: Conclusion from the blood-compensation and gift cases of sections 5 and 6.
+- id: interp-after-economy
+  kind: interpretation
+  passage: 'The defensible claim is narrow: monetary price is losing its monopoly as the public interface
+    of value, and other allocation regimes are becoming explicit.'
+  rationale: Central thesis stated in its narrow form.
+- id: normative-two-paths
+  kind: normative
+  passage: The phrase "after economy" therefore names a choice between two paths.
+  rationale: Normative framing of the two institutional paths; not an empirical prediction.
+- id: molenaar-allocation
+  kind: source
+  passage: A bacterium under nutrient stress shifts gene expression, metabolism, and repair in ways that
+    can be modeled as resource allocation [@molenaar2009; @scott2010].
+  evidence:
+    citation_id: molenaar2009
+    locator: Abstract
+    verified: true
+    verification_note: DOI 10.1038/msb.2009.82; the abstract (OpenAlex) models growth-rate-dependent regulation
+      of cell size, ribosomal content and metabolic efficiency as the outcome of optimising a self-replicating
+      system, i.e. a resource-allocation model. Scott et al. 2010 (DOI 10.1126/science.1192588) similarly
+      relate ribosome abundance to growth rate.
+- id: mitchell-economy
+  kind: source
+  passage: The modern economy as a bounded macro-object is much later and depends on statistics, national
+    accounting, and policy expertise, as @mitchell1998 argues for the twentieth century.
+  evidence:
+    citation_id: mitchell1998
+    locator: Abstract
+    verified: true
+    verification_note: DOI 10.1080/095023898335627; the abstract (OpenAlex) states that the understanding
+      of "the economy" as the totality of production, distribution and consumption within a country arose
+      in a mid-twentieth-century crisis of economic representation.
+- id: ostrom-commons
+  kind: source
+  passage: Public provisioning can decommodify some necessities, and commons can be governed durably outside
+    both state and market [@ostrom1990].
+  evidence:
+    citation_id: ostrom1990
+    locator: Abstract
+    verified: true
+    verification_note: DOI 10.1017/CBO9780511807763; the abstract (OpenAlex) states that neither state
+      nor market has been uniformly successful with common-pool resources and that such problems are sometimes
+      solved by voluntary organisations.
+runs:
+- id: after-economy
+  required: true
+  record: verification/after-economy.json
